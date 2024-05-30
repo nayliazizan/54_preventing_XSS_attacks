@@ -9,6 +9,7 @@ DATA VALIDATION AND SANITIZATION
 2. i then add middleware to validate email and restaurant info in the /review endpoint
 
 PROTECTING THE DOM
+
 3. change a code in home.ejs from this:
 document.write("<b>Current URL</b> : " + document.baseURI);
 to this:
