@@ -15,5 +15,6 @@ document.write("<b>Current URL</b> : " + document.baseURI);
 document.getElementById("urlinfo").textContent = document.baseURI;
 4. add "<b>Current URL</b><span id="urlinfo"></span>" in body section
 
+*securing cookies and headers*
 5. add a cookie object to the existing session in app.js' app.use part: httpOnly and secure
 6. implement the helmet middleware at app.js' top section: const helmet = require('helmet'); and then add app.use(helmet()); to use it
